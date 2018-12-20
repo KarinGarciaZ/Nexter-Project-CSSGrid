@@ -17,25 +17,18 @@ class Home extends Component {
           <Sidebar />
         </div>
 
-        <div className='header'>
-          <Header />
-        </div>
+        <Header />
 
         <div className='realtors'>
           <Realtors />
         </div>
 
-        <div className='features'>
-          <Features />
-        </div>
+        
+        <Features />
 
-        <div className='story__pictures'>
-          <StoryPictures />
-        </div>
+        <StoryPictures />
 
-        <div className='story__content'>
-          <StoryContent />
-        </div>
+        <StoryContent />
 
         <div className='homes'>
           <Homes />
