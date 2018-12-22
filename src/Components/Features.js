@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import icons from '../img/sprite.svg';
 
 export default class Features extends Component {
   render() {
@@ -7,7 +8,7 @@ export default class Features extends Component {
 
         <div className='feature'>
           <svg className='feature__icon'>
-            <use xlinkHref="img/sprite.svg#icon-global"></use>
+            <use xlinkHref={icons + '#icon-global'}></use>
           </svg>
           <h4 className='heading-4 heading-4--dark'>World's best luxury homes</h4>
           <p className='feature__text'>
@@ -18,7 +19,7 @@ export default class Features extends Component {
 
         <div className='feature'>
           <svg className='feature__icon'>
-            <use xlinkHref="img/sprite.svg#icon-trophy"></use>
+            <use xlinkHref={icons + '#icon-trophy'}></use>
           </svg>
           <h4 className='heading-4 heading-4--dark'>Only the best properties</h4>
           <p className='feature__text'>
@@ -29,7 +30,7 @@ export default class Features extends Component {
 
         <div className='feature'>
           <svg className='feature__icon'>
-            <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
+            <use xlinkHref={icons + '#icon-map-pin'}></use>
           </svg>
           <h4 className='heading-4 heading-4--dark'>All homes in top locations</h4>
           <p className='feature__text'>
@@ -40,7 +41,7 @@ export default class Features extends Component {
 
         <div className='feature'>
           <svg className='feature__icon'>
-            <use xlinkHref="img/sprite.svg#icon-key"></use>
+            <use xlinkHref={icons + '#icon-key'}></use>
           </svg>
           <h4 className='heading-4 heading-4--dark'>New home in one week</h4>
           <p className='feature__text'>
@@ -50,7 +51,7 @@ export default class Features extends Component {
 
         <div className='feature'>
           <svg className='feature__icon'>
-            <use xlinkHref="img/sprite.svg#icon-presentation"></use>
+            <use xlinkHref={icons + '#icon-presentation'}></use>
           </svg>
           <h4 className='heading-4 heading-4--dark'>1% realtors</h4>
           <p className='feature__text'>
@@ -60,7 +61,7 @@ export default class Features extends Component {
 
         <div className='feature'>
           <svg className='feature__icon'>
-            <use xlinkHref="img/sprite.svg#icon-lock"></use>
+            <use xlinkHref={icons + '#icon-lock'}></use>
           </svg>
           <h4 className='heading-4 heading-4--dark'>Secure payments</h4>
           <p className='feature__text'>

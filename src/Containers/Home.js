@@ -30,9 +30,7 @@ class Home extends Component {
 
         <StoryContent />
 
-        <div className='homes'>
-          <Homes />
-        </div>
+        <Homes />
 
         <div className='gallery'>
           <Gallery />
