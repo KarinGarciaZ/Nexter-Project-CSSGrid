@@ -13,9 +13,8 @@ class Home extends Component {
   render() {
     return (
       <div className='container'>
-        <div className='sidebar'>
-          <Sidebar />
-        </div>
+        
+        <Sidebar />
 
         <Header />
 
@@ -32,13 +31,9 @@ class Home extends Component {
 
         <Homes />
 
-        <div className='gallery'>
-          <Gallery />
-        </div>
+        <Gallery />
 
-        <div className='footer'>
-          <Footer />
-        </div>
+        <Footer />
       </div>
     )
   }
