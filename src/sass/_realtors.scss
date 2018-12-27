@@ -28,4 +28,18 @@
     margin-top: -.3rem;
     font-size: 1.1rem;
   }
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: full-start / full-end;
+
+    &__list {
+      grid-template-columns: repeat(3, 9rem max-content);
+    }
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    &__list {
+      grid-template-columns: 9rem max-content;
+    }
+  }
 }
