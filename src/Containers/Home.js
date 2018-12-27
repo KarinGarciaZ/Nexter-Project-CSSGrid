@@ -18,11 +18,8 @@ class Home extends Component {
 
         <Header />
 
-        <div className='realtors'>
-          <Realtors />
-        </div>
+        <Realtors />
 
-        
         <Features />
 
         <StoryPictures />
